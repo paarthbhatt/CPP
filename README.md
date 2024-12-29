@@ -56,7 +56,7 @@ CPP/
 ## Tools & Technologies
 
 - **Programming Language**: C++
-- **Compiler/IDE**: GCC, Visual Studio Code, or any preferred setup.
+- **Compiler/IDE**: Visual Studio Code, or Cursor
 - **Practice Source**: Striver's A2Z DSA Course Sheet.
 
 ## How to Use
