@@ -90,13 +90,30 @@
 //     return 0;
 // }
 
-#include<bits/stdc++.h>
-using namespace std;
+// #include<iostream>
 
-int main() {
-    int x, y;
-    cin >> x >> y;
-    cout << "Value of x: " << x << " and y: " << y;
-    return 0;
-}
+// int main() {
+//     int marks = 84;
+//     char grade;
+
+//     if (marks < 0 || marks > 100) {
+//         grade = 'X'; // Use 'X' to indicate invalid marks
+//     } else if (marks < 25) {
+//         grade = 'F';
+//     } else if (marks <= 44) {
+//         grade = 'E';
+//     } else if (marks <= 49) {
+//         grade = 'D';
+//     } else if (marks <= 59) {
+//         grade = 'C';
+//     } else if (marks <= 69) {
+//         grade = 'B';
+//     } else {
+//         grade = 'A';
+//     }
+
+//     std::cout << "Grade: " << grade << std::endl;
+    
+//     return 0;
+// }
         
