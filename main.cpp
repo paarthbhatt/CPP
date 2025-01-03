@@ -139,21 +139,46 @@
 //     return 0;
 // }
 
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     char grade = 'B';
+
+//     switch (grade) {
+//         case 'A':
+//             cout << "Excellent!" << endl;
+//             break;
+//         case 'B':
+//             cout << "Good!" << endl;
+//             break;
+//         default:
+//             cout << "Not specified." << endl;
+//     }
+
+//     return 0;
+// }
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    char grade = 'B';
+    int x = 2;
+    int y = 3;
 
-    switch (grade) {
-        case 'A':
-            cout << "Excellent!" << endl;
-            break;
-        case 'B':
-            cout << "Good!" << endl;
+    switch (x) {
+        case 1:
+            cout << "x is 1." << endl;
+            switch (y) {
+                case 1:
+                    cout << "y is 1." << endl;
+                    break;
+                default:
+                    cout << "y is not 1." << endl;
+            }
             break;
         default:
-            cout << "Not specified." << endl;
+            cout << "x is not 1." << endl;
     }
 
     return 0;
