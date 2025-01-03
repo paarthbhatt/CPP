@@ -219,16 +219,27 @@
 // }
 
 // Conditional Statements in For Loop:
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main() {
-    for (int i = 1; i <= 10; i++) {
-        if (i % 2 == 0) {
-            cout << i << " is an even number." << endl;
-        } else {
-            cout << i << " is an odd number." << endl;
-        }
-    }
-    return 0;
-}
+// int main() {
+//     for (int i = 1; i <= 10; i++) {
+//         if (i % 2 == 0) {
+//             cout << i << " is an even number." << endl;
+//         } else {
+//             cout << i << " is an odd number." << endl;
+//         }
+//     }
+//     return 0;
+// }
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     for (int i = 1; i <= 25; i += 5) {
+//         cout << "i = " << i << endl;
+//     }
+//     return 0;
+// }
