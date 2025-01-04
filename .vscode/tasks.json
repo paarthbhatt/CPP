@@ -2,46 +2,46 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compile C++",
+            "label": "build",
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", // Include debug information
-                "${file}", // Current file
-                "-o", // Output file
-                "${fileDirname}/${fileBasenameNoExtension}.out" // Output executable
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "problemMatcher": ["$gcc"],
-            "detail": "Compiles the current C++ file."
+            "detail": "Compiler: g++"
         },
         {
-            "label": "Run C++",
+            "label": "run",
             "type": "shell",
-            "command": "${fileDirname}/${fileBasenameNoExtension}.out",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "dependsOn": "Compile C++",
-            "problemMatcher": []
+            "command": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "group": "none",
+            "problemMatcher": [],
+            "detail": "Run the compiled program"
         },
         {
-            "label": "Clean",
+            "label": "build and run",
             "type": "shell",
-            "command": "rm",
+            "command": "g++",
             "args": [
-                "-f",
-                "${fileDirname}/${fileBasenameNoExtension}.out"
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "&&",
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
-            "group": "build",
-            "problemMatcher": []
+            "group": "none",
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile and run the program"
         }
     ]
 }
-
-
-
