@@ -246,18 +246,18 @@
 
 // ____________________________________________________________________________________________________________________________________________________
 
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 
-int main() {
-    int a, b, c, d;
-    cin >> a >> b >> c >> d;
+// int main() {
+//     int a, b, c, d;
+//     cin >> a >> b >> c >> d;
 
-    // Print the values to the console
-    cout << "Value of a: " << a << endl;
-    cout << "Value of b: " << b << endl;
-    cout << "Value of c: " << c << endl;
-    cout << "Value of d: " << d << endl;
+//     // Print the values to the console
+//     cout << "Value of a: " << a << endl;
+//     cout << "Value of b: " << b << endl;
+//     cout << "Value of c: " << c << endl;
+//     cout << "Value of d: " << d << endl;
 
-    return 0;
-}
+//     return 0;
+// }
