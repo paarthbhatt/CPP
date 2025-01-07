@@ -350,18 +350,55 @@
 //     return 0;
 // }
 
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 
-int findMax(int num1, int num2) {
-    return max(num1, num2);
-}
+// int findMax(int num1, int num2) {
+//     return max(num1, num2);
+// }
 
-int main() {
-    int num1, num2;
-    cout << "Enter two numbers: ";
-    cin >> num1 >> num2;
-    int maximum = findMax(num1, num2);
-    cout << "Maximum value: " << maximum << endl;
-    return 0;
-}
+// int main() {
+//     int num1, num2;
+//     cout << "Enter two numbers: ";
+//     cin >> num1 >> num2;
+//     int maximum = findMax(num1, num2);
+//     cout << "Maximum value: " << maximum << endl;
+//     return 0;
+// }
+
+// Pass-by-Value
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// void doSomething(int num) {
+//     cout << num << endl;
+//     num += 5;
+//     cout << num << endl;
+//     num += 5;
+//     cout << num << endl;
+// }
+// int main() {
+//     int num = 10;
+//     doSomething(num);
+//     cout << num << endl;
+//     return 0;
+// }
+
+// Pass-by-reference
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// void doSomething(string& s) {
+//     s = "parth";
+//     cout << s << endl;
+// }
+
+// int main() {
+//     string s;
+//     doSomething(s);
+//     cout << s << endl;
+//     return 0;
+// }
+
