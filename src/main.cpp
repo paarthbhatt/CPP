@@ -334,18 +334,34 @@
 //     return 0;
 // }
 
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int sum(int num1, int num2) {
+//     return num1 + num2;
+// }
+
+// int main() {
+//     int num1, num2;
+//     cout << "Enter two numbers: ";
+//     cin >> num1 >> num2;
+//     int result = sum(num1, num2);
+//     cout << "The sum is: " << result << endl;
+//     return 0;
+// }
+
 #include<bits/stdc++.h>
 using namespace std;
 
-int sum(int num1, int num2) {
-    return num1 + num2;
+int findMax(int num1, int num2) {
+    return max(num1, num2);
 }
 
 int main() {
     int num1, num2;
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
-    int result = sum(num1, num2);
-    cout << "The sum is: " << result << endl;
+    int maximum = findMax(num1, num2);
+    cout << "Maximum value: " << maximum << endl;
     return 0;
 }
