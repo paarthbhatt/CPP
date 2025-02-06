@@ -43,3 +43,36 @@
 // wchar_t variable_name;
 // Example
 // wchar_t letter = L'A';
+
+
+// DERIVED DATA TYPES
+// 1. Function 
+// Syntax: Function_Type Function_Name( Parameters )
+// Example:
+// #include <iostream>
+// using namespace std;
+
+// void greet() {
+//     cout << "Hello, World!" << endl;
+// }
+
+// int main() {
+//     greet(); // Calling the function
+//     return 0;
+// }
+
+// 2. Array 
+// Syntax: DataType Array_Name( size_of_array );
+// Example:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numbers[5] = {100, 269, 370, 444, 589}; // Array of 5 integers
+    cout << "First number: " << numbers[0] << endl;
+    cout << "Second number: " << numbers[1] << endl;
+    cout << "Third number: " << numbers[2] << endl;
+    cout << "Fourth number: " << numbers[3] << endl;
+    cout << "Fifth number: " << numbers[4] << endl;
+    return 0;
+}
