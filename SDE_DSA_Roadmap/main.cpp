@@ -80,21 +80,21 @@
 // 	return 0;
 // }
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main()
-// {
-// 	int n;
+int main()
+{
+	int n;
 
-// 	// Printing the sentence
-// 	cout << "Enter your roll no : " << endl;	
+	// Printing the sentence
+	cout << "Enter your roll no : " << endl;	
 
-// 	// User giving input as integer
-// 	cin >> n;	
+	// User giving input as integer
+	cin >> n;	
 
-// 	// Printing the input we took above
-// 	cout << "The roll no is " << n << endl;	
+	// Printing the input we took above
+	cout << "The roll no is " << n << endl;	
 
-// 	return 0;
-// }
+	return 0;
+}
