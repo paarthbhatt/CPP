@@ -25,19 +25,45 @@
 // This is a less secure variable than local variables.
 
 //Example:
-#include <iostream>
-using namespace std;
-int k=15; // k is a global variable.
-void fun()
-{
-    int val=10;
-    cout<<k<<endl;
-    cout<<val<<endl;
+// #include <iostream>
+// using namespace std;
+// int k=15; // k is a global variable.
+// void fun()
+// {
+//     int val=10;
+//     cout<<k<<endl;
+//     cout<<val<<endl;
     
-}
-int main() {
+// }
+// int main() {
 
-    fun();
-    cout<<k<<endl;
-    return 0;
-}
+//     fun();
+//     cout<<k<<endl;
+//     return 0;
+// }
+
+// Static variable
+// A variable declared with a static keyword is known as a static variable. It retains its value between 
+// the multiple function calls. The static variable is created at the start of program execution and 
+// destroyed automatically when the program's execution ends. If a static variable is not initialized, 
+// then the default value of the static variable is 0.
+
+// Example:
+// #include <iostream>
+// using namespace std;
+// void fun()
+// {
+//     int k=15;
+//     static int val=10; // val is a static variable
+//     cout<<k<<endl;
+//     cout<<val<<endl;
+//     val++;
+//     k++;
+// }
+// int main() {
+
+//     fun();
+//     fun();
+//     return 0;
+// } 
+
