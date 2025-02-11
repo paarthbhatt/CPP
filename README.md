@@ -29,7 +29,7 @@ It also includes various dsa c++ files.
    - Optimized and well-documented code.
 
 3. **Learning Notes**:
-   - Insights, explanations, and observations noted alongside implementations.
+   - Insights, explanations, and observations noted alongside implementations in jupyter notebook format.
    - Code comments to aid understanding.
 
 ## Repository Structure
