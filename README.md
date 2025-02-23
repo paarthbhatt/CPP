@@ -1,6 +1,6 @@
 # CPP Repository
 
-Welcome to my personal **CPP Repository**! This space is dedicated to my journey of mastering **C++** through project-based learning while practicing data structures and algorithms (DSA) using the **TUF's Striver's A2Z DSA Course sheet**. 
+Welcome to my personal **CPP Repository**! This space is dedicated to my journey of mastering **C++** through project-based learning while practicing data structures and algorithms (DSA) using the Striver's A2Z DSA Course sheet.
 
 ## About the Repository
 
@@ -16,8 +16,8 @@ This repository serves as a collection of:
 - **Systematic Approach**: Follows Striver's A2Z sheet, which organizes problems from beginner to advanced levels.
 - **Improvement Tracker**: Acts as a portfolio to track progress and identify areas for improvement.
 
+It also includes various DSA C++ files.
 
-It also includes various dsa c++ files.
 ## Features
 
 1. **Project-Based Learning**:
@@ -29,7 +29,7 @@ It also includes various dsa c++ files.
    - Optimized and well-documented code.
 
 3. **Learning Notes**:
-   - Insights, explanations, and observations noted alongside implementations in jupyter notebook format.
+   - Insights, explanations, and observations noted alongside implementations in Jupyter Notebook format.
    - Code comments to aid understanding.
 
 ## Repository Structure
@@ -65,9 +65,9 @@ CPP/
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/CPP.git
-   ```
+    ```bash
+    git clone https://github.com/paarthbhatt/CPP.git
+    ```
 
 2. Navigate through the folders to explore projects and practice solutions.
 3. Run and modify code snippets to reinforce learning.
