@@ -2,62 +2,53 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "Build",
             "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "group": "build",
             "problemMatcher": [
                 "$gcc"
-            ],
-            "detail": "Compiler: g++"
+            ]
         },
         {
-            "label": "run",
-            "type": "shell",
-            "command": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "group": "none",
-            "problemMatcher": [],
-            "detail": "Run the compiled program"
-        },
-        {
-            "label": "build and run",
+            "label": "Build & Run",
             "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "&&",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
-            "group": "none",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
             "problemMatcher": [
                 "$gcc"
-            ],
-            "detail": "Compile and run the program"
+            ]
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc.exe build active file",
-            "command": "C:/mingw64/bin/gcc.exe",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                ""
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:/mingw64/bin"
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
